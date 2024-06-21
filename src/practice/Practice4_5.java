@@ -8,9 +8,10 @@ public class Practice4_5 {
 
         while (num1 <= 10) {
             while (num2 <= num1) {
-                System.out.println(num1 + " * " + num2 + " = " + num1*num2);
+                System.out.print("*");
                 num2++;
             }
+            System.out.println();
             num1++;
             num2 = 0;
         }
